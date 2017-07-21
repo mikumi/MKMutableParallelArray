@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MKMutableParallelArray_Example' do
+  pod 'MKMutableParallelArray', :path => '../'
+
+  target 'MKMutableParallelArray_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

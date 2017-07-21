@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MKMutableParallelArray'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MKMutableParallelArray.'
+  s.summary          = 'A mutable thread safe array.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A mutable array that is thread safe.
                        DESC
 
   s.homepage         = 'https://github.com/mikumi/MKMutableParallelArray'
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'MKMutableParallelArray/Classes/**/*'
-  
+
   # s.resource_bundles = {
   #   'MKMutableParallelArray' => ['MKMutableParallelArray/Assets/*.png']
   # }
